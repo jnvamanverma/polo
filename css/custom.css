@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+}
+
+
+  div.block{
+      display: inline-block;
+      width: 19%; /* three containers (use 25% for four, and 50% for two, etc) */
+  }
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
